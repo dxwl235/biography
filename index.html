@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>예지의 웹프로필</title>
+    <style>
+        body {
+            background-color: #eaffc1;
+        }
+
+        .wrap {
+            margin: 10px auto 0px auto;
+            width: 400px;
+        }
+
+        .title {
+            letter-spacing: .5em;
+            font-size: 40px;
+        }
+
+        .photo {
+            width: 450px;
+            height: 400px;
+            background-color: rgb(255, 112, 224);
+            background-image: url(sk.png);
+            background-position: center;
+            background-size: cover;
+
+            border-radius: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            color: rgb(224, 42, 212);
+            text-align: right;
+            /* 텍스트를 오른쪽 정렬 */
+            padding-top: 5px;
+            padding-right: 15px;
+            box-sizing: border-box;
+
+        }
+
+        .profile>p {
+            padding-left: 15px;
+            text-indent: -15px;
+            line-height: 1.5;
+        }
+
+        .profile>p>button {
+            background-color: rgb(246, 243, 100);
+            box-shadow: 5px 6px 5px 2px #65a558;
+
+            width: 420px;
+            padding: 5px 3px 5px 3px;
+
+            border: solid 4px rgb(249, 255, 222);
+            border-radius: 8px;
+            font-size: 13.5px;
+            cursor: grab;
+        }
+
+        .profile>p>button:hover {
+            background-color: #22552f;
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <h1 class="title">BIOGRAPHY</h1>
+        <div class="photo">YEJI
+
+        </div>
+        <div class="profile">
+            <P>
+                <span style="color: rgb(47, 98, 43); font-weight: bold;">생년월일</span>
+                <br>2007년 5월 3일
+            </P>
+            <P>
+                <span style="color: rgb(47, 98, 43); font-weight: bold;">대표업적</span>
+                <br>내용 1 2026년 세계최초 '7일 숙면 달성... 죽은 줄 알았는데 수면중이었던...'
+                <br>내용 2 건국대 체교과 합격 
+            </P>
+            <P>
+                <span style="color: rgb(47, 98, 43); font-weight: bold;">연구자료</span>
+                <br><button onclick="window.open('./article.html')">생활 습관 변화를 통한 운동이 스트레스 관리에 미치는 긍정적 효과</button>
+            </P>
+            <P>
+                <span style="color: rgb(47, 98, 43); font-weight: bold;">추천도서</span>
+                <br><button onclick="window.open('https://www.yes24.com/Product/Goods/27836781')">미움 받을 용기 2</button>
+            </P>
+        </div>
+    </div>
+</body>
+
+</html>
